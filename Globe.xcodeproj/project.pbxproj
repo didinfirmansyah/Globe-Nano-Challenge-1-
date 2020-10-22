@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B30EA56244249A80041FA82 /* mainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B30EA55244249A80041FA82 /* mainScreenController.swift */; };
+		2B30EA9E2442534E0041FA82 /* mainMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2B30EA9D2442534E0041FA82 /* mainMusic.m4a */; };
+		2B30EAA0244263190041FA82 /* Music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2B30EA9F244263190041FA82 /* Music.m4a */; };
+		2B4DE11A2443752700787D55 /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DE1182443752700787D55 /* MotionHelper.swift */; };
+		2B4DE11B2443752700787D55 /* VectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4DE1192443752700787D55 /* VectorOperations.swift */; };
+		2B6716B4244403830062C3DE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6716B3244403830062C3DE /* art.scnassets */; };
+		2B6716B924440F790062C3DE /* chainsaw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6716B624440F790062C3DE /* chainsaw.wav */; };
+		2B6716BA24440F790062C3DE /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B6716B724440F790062C3DE /* jump.wav */; };
+		2B6716BB24440F790062C3DE /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B6716B824440F790062C3DE /* background.mp3 */; };
 		2B80580424404E3D00F6C64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80580324404E3D00F6C64A /* AppDelegate.swift */; };
-		2B80580624404E3D00F6C64A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B80580524404E3D00F6C64A /* art.scnassets */; };
 		2B80580824404E3D00F6C64A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80580724404E3D00F6C64A /* GameViewController.swift */; };
 		2B80580B24404E3D00F6C64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B80580924404E3D00F6C64A /* Main.storyboard */; };
 		2B80580D24404E3E00F6C64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B80580C24404E3E00F6C64A /* Assets.xcassets */; };
@@ -16,9 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B30EA55244249A80041FA82 /* mainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreenController.swift; sourceTree = "<group>"; };
+		2B30EA9D2442534E0041FA82 /* mainMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = mainMusic.m4a; sourceTree = "<group>"; };
+		2B30EA9F244263190041FA82 /* Music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Music.m4a; sourceTree = "<group>"; };
+		2B4DE1182443752700787D55 /* MotionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionHelper.swift; sourceTree = "<group>"; };
+		2B4DE1192443752700787D55 /* VectorOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorOperations.swift; sourceTree = "<group>"; };
+		2B6716B3244403830062C3DE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = sound/art.scnassets; sourceTree = "<group>"; };
+		2B6716B624440F790062C3DE /* chainsaw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chainsaw.wav; sourceTree = "<group>"; };
+		2B6716B724440F790062C3DE /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		2B6716B824440F790062C3DE /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 		2B80580024404E3D00F6C64A /* Globe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Globe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B80580324404E3D00F6C64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B80580524404E3D00F6C64A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2B80580724404E3D00F6C64A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2B80580A24404E3D00F6C64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B80580C24404E3E00F6C64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B30EA5724424E8B0041FA82 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				2B30EA9F244263190041FA82 /* Music.m4a */,
+				2B30EA9D2442534E0041FA82 /* mainMusic.m4a */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		2B4DE1172443752700787D55 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2B4DE1182443752700787D55 /* MotionHelper.swift */,
+				2B4DE1192443752700787D55 /* VectorOperations.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2B6716B524440F790062C3DE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2B6716B624440F790062C3DE /* chainsaw.wav */,
+				2B6716B724440F790062C3DE /* jump.wav */,
+				2B6716B824440F790062C3DE /* background.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		2B8057F724404E3D00F6C64A = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +100,14 @@
 		2B80580224404E3D00F6C64A /* Globe */ = {
 			isa = PBXGroup;
 			children = (
+				2B4DE1172443752700787D55 /* Helper */,
+				2B30EA5724424E8B0041FA82 /* sound */,
 				2B80580324404E3D00F6C64A /* AppDelegate.swift */,
-				2B80580524404E3D00F6C64A /* art.scnassets */,
+				2B6716B3244403830062C3DE /* art.scnassets */,
 				2B80580724404E3D00F6C64A /* GameViewController.swift */,
 				2B80580924404E3D00F6C64A /* Main.storyboard */,
+				2B6716B524440F790062C3DE /* Sounds */,
+				2B30EA55244249A80041FA82 /* mainScreenController.swift */,
 				2B80580C24404E3E00F6C64A /* Assets.xcassets */,
 				2B80580E24404E3E00F6C64A /* LaunchScreen.storyboard */,
 				2B80581124404E3E00F6C64A /* Info.plist */,
@@ -125,10 +173,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B80580624404E3D00F6C64A /* art.scnassets in Resources */,
+				2B6716BA24440F790062C3DE /* jump.wav in Resources */,
+				2B30EAA0244263190041FA82 /* Music.m4a in Resources */,
+				2B6716B4244403830062C3DE /* art.scnassets in Resources */,
 				2B80581024404E3E00F6C64A /* LaunchScreen.storyboard in Resources */,
+				2B6716B924440F790062C3DE /* chainsaw.wav in Resources */,
 				2B80580D24404E3E00F6C64A /* Assets.xcassets in Resources */,
 				2B80580B24404E3D00F6C64A /* Main.storyboard in Resources */,
+				2B6716BB24440F790062C3DE /* background.mp3 in Resources */,
+				2B30EA9E2442534E0041FA82 /* mainMusic.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B80580824404E3D00F6C64A /* GameViewController.swift in Sources */,
+				2B30EA56244249A80041FA82 /* mainScreenController.swift in Sources */,
 				2B80580424404E3D00F6C64A /* AppDelegate.swift in Sources */,
+				2B4DE11B2443752700787D55 /* VectorOperations.swift in Sources */,
+				2B4DE11A2443752700787D55 /* MotionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +343,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KK36LPRSX;
 				INFOPLIST_FILE = Globe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Xcodex.Globe;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleDeveloperAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +362,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KK36LPRSX;
 				INFOPLIST_FILE = Globe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Xcodex.Globe;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleDeveloperAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
